@@ -9,5 +9,5 @@ class Person{
     }
 }
 
-let doctor = new Person();
+let doctor = new Person('Jon', 'Doe', '06/23/2023', 'abc@gmail.com', 234342, 'Doctor');
 console.log(doctor.doB);
